@@ -1,0 +1,288 @@
+body {
+  background-color: #fff;
+  margin-bottom: 100px;
+}
+
+.navbar {
+  font-family: 'Poppins', sans-serif;
+  color: #f0e6e6;
+  font-weight: bold;
+  background-color: #2C3CCF;
+}
+
+.navbar .navbar-brand img {
+  width: 30px;
+  margin-right: 15px;
+}
+
+.navbar .navbar-brand {
+  margin-left: 10%;
+  font-family: 'Poppins', sans-serif;
+  color: #f0e6e6;
+  font-weight: bold;
+  background-color: #2C3CCF;
+}
+
+.navbar .nav-item img {
+  width: 20px;
+  margin-left: 10px;
+}
+
+.navbar .navbar-nav {
+  margin-left: 25%;
+  cursor: pointer;
+}
+
+.navbar .nav-item a {
+  font-family: 'Poppins', sans-serif;
+  color: #f0e6e6;
+  font-weight: bold;
+  background-color: #2C3CCF;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  margin-left: 150px;
+  color: rgba(0, 0, 0, 0.582);
+}
+
+.d-flex .text-h {
+  margin-top: 80px;
+}
+
+.d-flex .img-cards {
+  position: relative;
+  margin-top: 80px;
+  margin-left: 120px;
+}
+
+.d-flex .master-card {
+  position: absolute;
+  border-radius: 15px;
+  width: 230px;
+  top: 40%;
+  left: -30%;
+}
+
+.d-flex .blue-card {
+  width: 230px;
+  border-radius: 15px;
+}
+
+.d-flex h2 {
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.d-flex h1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.button-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 80px;
+  margin-left: 165px;
+  width: 61%;
+  padding: 20px;
+  padding-left: 30px;
+  border-radius: 7px;
+  position: relative;
+  color: rgba(0, 0, 0, 0.582);
+  font-weight: bold;
+}
+
+.button-wrapper .varient {
+  width: 300px;
+  padding: 8px;
+  margin: 8px;
+  outline: none;
+  border: 2px solid #aaa5a5;
+}
+
+.button-wrapper label {
+  margin-left: 10px;
+}
+
+.button-wrapper button {
+  height: 50px;
+  width: 180px;
+  color: rgba(0, 0, 0, 0.582);
+  font-weight: bold;
+  color: black;
+  font-weight: bold;
+  border-radius: 8px;
+  position: absolute;
+  left: 85%;
+  top: 30%;
+  -webkit-box-shadow: 2px 2px 10px 2px gray;
+          box-shadow: 2px 2px 10px 2px gray;
+}
+
+.container-card {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.container-card .main-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 400px;
+}
+
+.container-card .one, .container-card .two, .container-card .three, .container-card .four {
+  margin-left: 60px;
+  font-weight: bold;
+  color: gray;
+}
+
+.container-card .border-wapper {
+  height: 3px;
+  width: 70px;
+  border-radius: 25%;
+  background-color: #ffbf2b;
+  text-align: center;
+  margin-left: 650px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.container-card .title-wrapper {
+  font-size: 35px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #222;
+  font-weight: 600;
+}
+
+.container-card .border-solid {
+  width: 460px;
+  height: 3px;
+  background-color: #c5c1c1;
+  margin-top: 7px;
+  margin-left: 455px;
+  border-radius: 50px;
+  position: relative;
+}
+
+.container-card .border-solid-after {
+  height: 3px;
+  width: 110px;
+  background-color: #ecaa0e9c;
+  position: absolute;
+  left: 33.7%;
+  border-radius: 50px;
+  top: 109.6%;
+}
+
+.cards .cards-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cards .card-one, .cards .card-two, .cards .card-three, .cards .card-four {
+  margin-top: 40px;
+  text-align: left;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 15px;
+  margin-left: 100px;
+  width: 21.2%;
+  border-radius: 7px;
+  border: 2px solid none;
+  -webkit-box-shadow: 2px 2px 5px 3px gray;
+          box-shadow: 2px 2px 5px 3px gray;
+}
+
+.cards .card-one .star, .cards .card-two .star, .cards .card-three .star, .cards .card-four .star {
+  width: 18px;
+}
+
+.cards .card-one h1, .cards .card-two h1, .cards .card-three h1, .cards .card-four h1 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.cards .card-one .one-first-flex, .cards .card-two .one-first-flex, .cards .card-three .one-first-flex, .cards .card-four .one-first-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cards .card-one .star-margin, .cards .card-two .star-margin, .cards .card-three .star-margin, .cards .card-four .star-margin {
+  margin-left: 40px;
+  margin-top: 8px;
+}
+
+.cards .card-one .one-second-flex, .cards .card-two .one-second-flex, .cards .card-three .one-second-flex, .cards .card-four .one-second-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+}
+
+.cards .card-one h2, .cards .card-two h2, .cards .card-three h2, .cards .card-four h2 {
+  font-size: 18px;
+  margin-top: -15px;
+  color: #0B30BF;
+}
+
+.cards .card-one p, .cards .card-two p, .cards .card-three p, .cards .card-four p {
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+.cards .card-one .div-two, .cards .card-two .div-two, .cards .card-three .div-two, .cards .card-four .div-two {
+  margin-left: 90px;
+}
+
+.cards .card-one .footer-flex-one, .cards .card-two .footer-flex-one, .cards .card-three .footer-flex-one, .cards .card-four .footer-flex-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 13px;
+  margin-top: 12px;
+}
+
+.cards .card-one .footer-flex-two, .cards .card-two .footer-flex-two, .cards .card-three .footer-flex-two, .cards .card-four .footer-flex-two {
+  font-size: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cards .card-one .read, .cards .card-two .read, .cards .card-three .read, .cards .card-four .read {
+  width: 18px;
+  margin-right: 5px;
+}
+
+.cards .card-one button, .cards .card-two button, .cards .card-three button, .cards .card-four button {
+  background-color: #0B30BF;
+  width: 272px;
+  margin-top: 20px;
+}
+
+.cards .card-one .one-img, .cards .card-two .one-img, .cards .card-three .one-img, .cards .card-four .one-img {
+  width: 270px;
+}
+
+.cards .card-one {
+  margin-right: -70px;
+  margin-left: 60px;
+}
+
+.cards .card-two {
+  margin-right: -70px;
+}
+
+.cards .card-three {
+  margin-right: -70px;
+}
+/*# sourceMappingURL=style.css.map */

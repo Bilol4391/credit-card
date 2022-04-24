@@ -1,0 +1,191 @@
+
+
+@mixin navbar () {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(240, 230, 230);
+    font-weight: bold;
+    background-color: #2C3CCF;
+}
+
+@import './button-wrapper';
+@import './d-flex.scss';
+
+@mixin d-flex () {
+    $fontFamily: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 0.582);
+}
+
+@mixin button () {
+    $fontFamily: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 0.582);
+    font-weight: bold;
+}
+
+$fontFamily: 'Poppins', sans-serif;
+$textColor: rgba(0, 0, 0, 0.582);
+
+
+ body {
+    background-color: #fff;
+    margin-bottom: 100px
+}
+
+.navbar {
+    @include navbar();
+
+    .navbar-brand img{
+        width: 30px;
+        margin-right: 15px;
+    }
+    .navbar-brand {
+        margin-left: 10%;
+        @include navbar();
+    }
+    .nav-item img {
+        width: 20px;
+        margin-left: 10px;
+    }
+    .navbar-nav {
+        margin-left: 25%;
+        cursor: pointer;
+    }
+    .nav-item a {
+        @include navbar();
+    }
+}
+
+
+
+
+.container-card {
+    text-align: center;
+    margin-top: 70px;
+    // margin-left: 100px;
+
+    .main-flex {
+        display: flex;
+        margin-left: 400px;
+    }
+    .one, .two, .three, .four {
+        margin-left: 60px;
+        font-weight: bold;
+        color: gray;
+    }
+   .border-wapper {
+       height: 3px;
+       width: 70px;
+       border-radius: 25%;
+       background-color: #ffbf2b;
+       text-align: center;
+       margin-left: 650px;
+       margin-top: 5px;
+       margin-bottom: 30px;
+   }
+   .title-wrapper {
+       font-size: 35px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #222;
+        font-weight: 600;
+   }
+   .border-solid {
+       width: 460px;
+       height: 3px;
+       background-color: rgb(197, 193, 193);
+       margin-top: 7px;
+       margin-left: 455px;
+       border-radius: 50px;
+       position: relative;
+   }
+   .border-solid-after {
+       height: 3px;
+       width: 110px;
+       background-color: #ecaa0e9c;
+       position: absolute;
+       left: 33.7%;
+       border-radius: 50px;
+       top: 109.6%;
+   }
+}
+
+.cards {
+
+    .cards-flex {
+        display: flex;
+    }
+    .card-one, .card-two, .card-three, .card-four {
+        margin-top: 40px;
+        text-align: left;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-bottom: 15px;
+        margin-left: 100px;
+        width: 21.2%;
+        border-radius: 7px;
+        border: 2px solid none;
+        box-shadow: 2px 2px px 2px gray !important;
+        .star {
+            width: 18px;
+        }
+        h1 {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        .one-first-flex {
+            display: flex;
+        }
+        .star-margin {
+            margin-left: 40px;
+            margin-top: 8px;
+        }
+        .one-second-flex {
+            display: flex;
+            text-align: left;
+        }
+        h2 {
+            font-size: 18px;
+            margin-top: -15px;
+            color: #0B30BF;
+        }
+        p {
+            font-size: 13px;
+            margin-top: 15px;
+        }
+        .div-two {
+            margin-left: 90px;
+        }
+        .footer-flex-one {
+            display: flex;
+            font-size: 13px;
+            margin-top: 12px;
+        }
+        .footer-flex-two {
+            font-size: 13px;
+            display: flex;
+        }
+        .read {
+            width: 18px;
+            margin-right: 5px;
+        }
+        button {
+            background-color: #0B30BF;
+            width: 272px;
+            margin-top: 20px;
+        }
+        .one-img {
+            width: 270px;
+        }
+    }
+
+    .card-one {
+        margin-right: -70px;
+        margin-left: 60px;
+    }
+    .card-two {
+        margin-right: -70px;
+    }
+    .card-three {
+        margin-right: -70px;
+    }
+
+
+}

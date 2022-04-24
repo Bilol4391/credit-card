@@ -1,0 +1,35 @@
+.d-flex {
+    display: flex;
+    width: 70%;
+    margin-left: 150px;
+    @include d-flex();    
+
+    .text-h {
+        margin-top: 80px;
+    }
+    .img-cards {
+        position: relative;
+        margin-top: 80px;
+        margin-left: 120px;
+    }
+    .master-card {
+        position: absolute;
+        border-radius: 15px;
+        width: 230px;
+        top: 40%;
+        left: -30%;
+    }
+    .blue-card {
+        width: 230px;
+        border-radius: 15px;
+    }
+    h2 {
+        font-size: 40px;
+        letter-spacing: 2px;
+    }
+    h1 {
+        font-size: 50px;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+}
